@@ -1,0 +1,350 @@
+/* html{
+  overflow: hidden;
+  height: 100%;
+} */
+body {
+  height: 100%;
+  background-color: #039BE5;
+  font-family: Cambria;
+  box-sizing: border-box;
+}
+.bg{
+    background:url(./background/msbg.jpg);
+    background-size:cover;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.1;
+    width: 100%;
+    height: 100%;
+}
+/* start form 1&2 */
+.sign-up-form {
+  width: 430px;
+  box-shadow: 2px 2px 3px black;
+  background-color: white;
+  padding: 20px;
+  height: 300px;
+  margin: 105px auto;
+  text-align: left;
+  border-bottom: 40px solid;
+  border-color: orange;
+  border-radius: 0px 0px 7px 7px;
+}
+::-webkit-input-placeholder {
+color: rgb(172, 169, 169);
+font-weight: normal;
+}
+/* start form 3 */
+.sign-up-form3 {
+  width: 480px;
+  box-shadow: 2px 2px 3px black;
+  background-color: white;
+  padding: 20px;
+  height: 650px;
+  margin: 105px auto;
+  text-align: left;
+  border-bottom: 40px solid;
+  border-color: orange;
+  border-radius: 0px 0px 7px 7px;
+}
+/* start form 4 */
+.sign-up-form4top {
+  width: 480px;
+  box-shadow: 2px 2px 3px black;
+  background-color: white;
+  padding: 20px;
+  height: 218px;
+  margin: 105px auto;
+  text-align: left;
+  border-bottom: 40px solid;
+  border-color: orange;
+  border-radius: 0px 0px 7px 7px;
+}
+.sign-up-form4bottom {
+  width: 480px;
+  box-shadow: 2px 2px 3px black;
+  background-color: white;
+  padding: 20px;
+  height: 520px;
+  margin: 70px -20px;
+  text-align: left;
+  border-bottom: 40px solid;
+  border-color: orange;
+  border-radius: 0px 0px 7px 7px;
+}
+
+/* start form 5 */
+.sign-up-form5top {
+  width: 480px;
+  box-shadow: 2px 2px 3px black;
+  background-color: white;
+  padding: 20px;
+  height: 218px;
+  margin: 105px auto;
+  text-align: left;
+  border-bottom: 40px solid;
+  border-color: orange;
+  border-radius: 0px 0px 7px 7px;
+}
+.sign-up-form5bottom {
+  width: 480px;
+  box-shadow: 2px 2px 3px black;
+  background-color: white;
+  padding: 20px;
+  height: 560px;
+  margin: 70px -20px;
+  text-align: left;
+  border-bottom: 40px solid;
+  border-color: orange;
+  border-radius: 0px 0px 7px 7px;
+}
+
+
+/* start form 6 */
+.sign-up-form6top {
+  width: 480px;
+  box-shadow: 2px 2px 3px black;
+  background-color: white;
+  padding: 20px;
+  height: 218px;
+  margin: 105px auto;
+  text-align: left;
+  border-bottom: 40px solid;
+  border-color: orange;
+  border-radius: 0px 0px 7px 7px;
+}
+.sign-up-form6bottom {
+  width: 480px;
+  box-shadow: 2px 2px 3px black;
+  background-color: white;
+  padding: 20px;
+  height: 330px;
+  margin: 70px -20px;
+  text-align: left;
+  border-bottom: 40px solid;
+  border-color: orange;
+  border-radius: 0px 0px 7px 7px;
+}
+
+/* start form 7 */
+.sign-up-form7{
+  width: 480px;
+  box-shadow: 2px 2px 3px black;
+  background-color: white;
+  padding: 20px;
+  height: 605px;
+  margin: 105px auto;
+  text-align: left;
+  border-bottom: 40px solid;
+  border-color: orange;
+  border-radius: 0px 0px 7px 7px;
+}
+
+.round {
+  height: 120px;
+  width: 120px;
+  background-image: url('./background/msulogo.png');
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: -75px;
+  border: 5px solid orange;
+  box-shadow: 1px 1px 5px black;
+  line-height: 100px;
+  font-size: 55px;
+  color: orange;
+}
+.lbl {
+  font-size: 18px;
+  font-weight: bold;
+}
+.input-box {
+  margin: 5px 0;
+  width: 290px;
+  height: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  justify-content: center;
+  margin-right: 0;
+}
+.Address3{
+  height: 100px; 
+  font-family: Cambria;
+}
+.mfrgl3{
+  margin:30px 180px;
+  width: 100%;
+}
+.mfrgl4{
+  margin:0px 180px;
+  width: 50%;
+}
+
+.selectoption3{
+  width: 200px;
+  margin: 5px 0;
+  width: 295px;
+  height: 25px;
+  font-size: 16px;
+  justify-content: center;
+
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2.0; 
+}
+/* form 3 input */
+.input3g{
+  width: 100%;
+  height: 35px;
+  display: inline-block;
+  width: 480px;
+  font-weight: bold;
+  align-content: center;
+  padding-top: 10px;
+}
+.gender3{
+margin-left: 120px;
+font-size: 17px;
+}
+
+.signup-btns-group {
+  display: flex;
+  justify-content: center;
+}
+.signup-btn {
+  padding: 7px 30px;
+  background-color: orange;
+  border: none;
+  margin: 10px 5px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: Cambria;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  outline: none;
+}
+.signup-btn:hover { 
+  background-color: rgb(88, 21, 163);
+  transition-duration: 0.5s;
+  color: aliceblue;
+  cursor: pointer;
+  outline: none;
+}
+.ForgotPswd {
+  padding: 7px 20px;
+  background-color: teal;
+  border: none;
+  margin-left: 270px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: Cambria;
+  color: white;
+  transition-duration: 0.7s;
+  cursor: pointer;
+  outline: none;
+}
+.ForgotPswd:hover {
+  background-color:darkturquoise;
+  transition-duration: 0.5s;
+  color: black;
+  cursor: pointer;
+  outline: none;
+}
+.Logout-btn {
+  padding: 7px 20px;
+  background-color: teal;
+  border: none;
+  margin-left: 340px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: Cambria;
+  color: white;
+  transition-duration: 0.7s;
+  cursor: pointer;
+  outline: none;
+}
+.Logout-btn:hover {
+  background-color:darkturquoise;
+  transition-duration: 0.5s;
+  color: black;
+  cursor: pointer;
+  outline: none;
+}
+.heading {
+  background-color: orange;
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-align: center;
+  transition-duration: 0.7s;
+}
+.txt {
+  margin-right: 200px;
+}
+.data {
+  width: 95px;
+  height: 30px;
+  font-size: 13px;
+}
+.gender {
+  margin-top: 15px;
+}
+
+/* Student ID information page */
+.student-id-btn {
+  padding: 7px 30px;
+  background-color: orange;
+  width: 50%;
+  border: none;
+  margin: 5px 110px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: Cambria;
+  transition-duration: 0.7s;
+  cursor: pointer;
+  outline: none;
+}
+.student-id-btn:hover { 
+  background-color: rgb(88, 21, 163);
+  transition-duration: 0.5s;
+  color: aliceblue;
+  cursor: pointer;
+  outline: none;
+}
+.std-id-group{
+  margin-top: 15px;
+}
+
+.qr-btn{
+  padding: 35px 30px;
+  background-color: rgb(57, 11, 226);
+  color: white;
+  width:30%;
+  border: none;
+  margin: 15px 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Cambria;
+  transition-duration: 0.7s;
+  cursor: pointer;
+  outline: none;
+}
+.qr-btn:hover{
+  background-color: rgb(76, 175, 241);
+  color: white;
+  transition-duration: 0.7s;
+  cursor: pointer;
+  outline: none;
+}
